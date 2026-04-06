@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+backend/data_store.json
+# Node
+frontend/node_modules/
+frontend/.cache/
+npm-debug.log*
+yarn-error.log*
+.DS_Store
