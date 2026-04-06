@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Backend Server",
+			"type": "shell",
+			"command": "c:\\Users\\akr27\\Desktop\\Climate_Change\\.venv\\Scripts\\python.exe -m uvicorn main:app --reload",
+			"options": {
+				"cwd": "backend"
+			},
+			"isBackground": true
+		}
+	]
+}
